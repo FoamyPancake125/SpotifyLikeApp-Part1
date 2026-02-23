@@ -41,7 +41,7 @@ public class App {
     }
 
     static void showHome(TrackLibrary library) {
-        System.out.println("\n--- Home ---");
+        System.out.println("\n--- Home (" + tracks.size() + " tracks) ---");
         List<Track> tracks = library.getTracks();
         if (tracks.isEmpty()) {
             System.out.println("No tracks loaded.");
