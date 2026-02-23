@@ -104,7 +104,7 @@ public class App {
         System.out.println("\n--- Your Favorites ❤ ---");
         List<Track> favorites = library.getFavorites();
         if (favorites.isEmpty()) {
-            System.out.println("No favorites yet. Heart a song while playing!");
+            System.out.println("No favorites yet! Play a song and press H to heart it.");
             return;
         }
         for (int i = 0; i < favorites.size(); i++) {
