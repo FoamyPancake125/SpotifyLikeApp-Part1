@@ -1,72 +1,12 @@
 [
-  {
-    "title": "Smile On (Short Version 2)",
-    "artist": "BlackTrendMusic",
-    "year": 2023,
-    "genre": "Pop",
-    "filePath": "audio/BlackTrendMusic - Smile On (Short Version 2).wav"
-  },
-  {
-    "title": "Crazy Cuckoo Clock",
-    "artist": "Happiness In Music",
-    "year": 2023,
-    "genre": "Pop",
-    "filePath": "audio/Happiness In Music - Crazy Cuckoo Clock.wav"
-  },
-  {
-    "title": "Silly Sock Hop",
-    "artist": "Happiness In Music",
-    "year": 2023,
-    "genre": "Pop",
-    "filePath": "audio/Happiness In Music - Silly Sock Hop.wav"
-  },
-  {
-    "title": "Minimal Short Part A",
-    "artist": "Lowtone Music",
-    "year": 2023,
-    "genre": "Ambient",
-    "filePath": "audio/Lowtone Music - Minimal short part A - Ambient Electronic Corporate.wav"
-  },
-  {
-    "title": "Minimal Short Part B",
-    "artist": "Lowtone Music",
-    "year": 2023,
-    "genre": "Ambient",
-    "filePath": "audio/Lowtone Music - Minimal short part B - Ambient Electronic Music.wav"
-  },
-  {
-    "title": "This Upbeat Short Version",
-    "artist": "Lowtone Music",
-    "year": 2023,
-    "genre": "Motivational",
-    "filePath": "audio/Lowtone Music - This Upbeat Short Version - Uplifting & Motivational Instrumental.wav"
-  },
-  {
-    "title": "Tropical Breeze Short Version",
-    "artist": "Lowtone Music",
-    "year": 2023,
-    "genre": "Pop",
-    "filePath": "audio/Lowtone Music - Tropical Breeze Short Version - Summer Pop.wav"
-  },
-  {
-    "title": "Light Pop Music",
-    "artist": "SyncLab Music",
-    "year": 2023,
-    "genre": "Pop",
-    "filePath": "audio/SyncLab Music - Light Pop Music.wav"
-  },
-  {
-    "title": "Animals",
-    "artist": "VibeDepot",
-    "year": 2023,
-    "genre": "Electronic",
-    "filePath": "audio/VibeDepot - Animals.wav"
-  },
-  {
-    "title": "Deep Tech Corporate",
-    "artist": "YuraSoop",
-    "year": 2023,
-    "genre": "Electronic",
-    "filePath": "audio/YuraSoop - Deep Tech Corporate.wav"
-  }
+  {"title": "Smile On (Short Version 2)", "artist": "BlackTrendMusic", "year": 2023, "genre": "Pop", "isFavorite": false, "filePath": "audio/BlackTrendMusic - Smile On (Short Version 2).wav"},
+  {"title": "Crazy Cuckoo Clock", "artist": "Happiness In Music", "year": 2023, "genre": "Pop", "isFavorite": false, "filePath": "audio/Happiness In Music - Crazy Cuckoo Clock.wav"},
+  {"title": "Silly Sock Hop", "artist": "Happiness In Music", "year": 2023, "genre": "Pop", "isFavorite": false, "filePath": "audio/Happiness In Music - Silly Sock Hop.wav"},
+  {"title": "Minimal Short Part A", "artist": "Lowtone Music", "year": 2023, "genre": "Ambient", "isFavorite": false, "filePath": "audio/Lowtone Music - Minimal short part A - Ambient Electronic Corporate.wav"},
+  {"title": "Minimal Short Part B", "artist": "Lowtone Music", "year": 2023, "genre": "Ambient", "isFavorite": false, "filePath": "audio/Lowtone Music - Minimal short part B - Ambient Electronic Music.wav"},
+  {"title": "This Upbeat Short Version", "artist": "Lowtone Music", "year": 2023, "genre": "Motivational", "isFavorite": false, "filePath": "audio/Lowtone Music - This Upbeat Short Version - Uplifting & Motivational Instrumental.wav"},
+  {"title": "Tropical Breeze Short Version", "artist": "Lowtone Music", "year": 2023, "genre": "Pop", "isFavorite": false, "filePath": "audio/Lowtone Music - Tropical Breeze Short Version - Summer Pop.wav"},
+  {"title": "Light Pop Music", "artist": "SyncLab Music", "year": 2023, "genre": "Pop", "isFavorite": false, "filePath": "audio/SyncLab Music - Light Pop Music.wav"},
+  {"title": "Animals", "artist": "VibeDepot", "year": 2023, "genre": "Electronic", "isFavorite": false, "filePath": "audio/VibeDepot - Animals.wav"},
+  {"title": "Deep Tech Corporate", "artist": "YuraSoop", "year": 2023, "genre": "Electronic", "isFavorite": false, "filePath": "audio/YuraSoop - Deep Tech Corporate.wav"}
 ]

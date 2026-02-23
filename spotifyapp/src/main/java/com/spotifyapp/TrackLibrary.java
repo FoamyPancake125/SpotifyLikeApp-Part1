@@ -5,6 +5,7 @@ import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class TrackLibrary {
     private List<Track> tracks;
@@ -25,13 +26,17 @@ public class TrackLibrary {
         }
     }
 
-    public List<Track> getTracks() {
-        return tracks;
+    public List<Track> getTracks() { return tracks; }
+
+    public List<Track> getFavorites() {
+        return tracks.stream()
+                .filter(Track::isFavorite)
+                .collect(Collectors.toList());
     }
 
     public List<Track> searchByTitle(String text) {
         return tracks.stream()
                 .filter(t -> t.getTitle().toLowerCase().contains(text.toLowerCase()))
-                .toList();
+                .collect(Collectors.toList());
     }
 }

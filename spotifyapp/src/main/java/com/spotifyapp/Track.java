@@ -5,13 +5,15 @@ public class Track {
     private String artist;
     private int year;
     private String genre;
+    private boolean isFavorite;
     private String filePath;
 
-    public Track(String title, String artist, int year, String genre, String filePath) {
+    public Track(String title, String artist, int year, String genre, boolean isFavorite, String filePath) {
         this.title = title;
         this.artist = artist;
         this.year = year;
         this.genre = genre;
+        this.isFavorite = isFavorite;
         this.filePath = filePath;
     }
 
@@ -20,9 +22,11 @@ public class Track {
     public int getYear() { return year; }
     public String getGenre() { return genre; }
     public String getFilePath() { return filePath; }
+    public boolean isFavorite() { return isFavorite; }
+    public void toggleFavorite() { isFavorite = !isFavorite; }
 
-    @Override
     public String toString() {
-        return title + " by " + artist + " (" + year + ") [" + genre + "]";
+        String heart = isFavorite ? " ♥" : "";
+        return title + " by " + artist + " (" + year + ") [" + genre + "]" + heart;
     }
 }
