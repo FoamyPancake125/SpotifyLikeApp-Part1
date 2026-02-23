@@ -101,7 +101,7 @@ public class App {
     }
 
     static void favoritesMenu(TrackLibrary library, AudioPlayer player, Scanner scanner) {
-        System.out.println("\n--- Favorites ---");
+        System.out.println("\n--- Your Favorites ❤ ---");
         List<Track> favorites = library.getFavorites();
         if (favorites.isEmpty()) {
             System.out.println("No favorites yet. Heart a song while playing!");
