@@ -25,7 +25,7 @@ public class App {
                 case "L": libraryMenu(library, player, scanner); break;
                 case "F": favoritesMenu(library, player, scanner); break;
                 case "Q": System.out.println("Thanks for listening. Goodbye!"); running = false; break;
-                default: System.out.println("Invalid choice. Try again.");
+                default: System.out.println("Invalid choice. Please enter H, S, L, F, or Q.");
             }
         }
         scanner.close();
