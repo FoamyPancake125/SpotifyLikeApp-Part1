@@ -30,7 +30,7 @@ public class App {
                     libraryMenu(library, player, scanner);
                     break;
                 case "Q":
-                    System.out.println("Goodbye!");
+                    System.out.println("Thanks for listening. Goodbye!");
                     running = false;
                     break;
                 default:
