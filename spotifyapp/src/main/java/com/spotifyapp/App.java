@@ -11,7 +11,7 @@ public class App {
         boolean running = true;
 
         while (running) {
-            System.out.println("\n=== Spotify-Like App ===");
+            System.out.println("\n=== Welcome to Spotify-Like App ===");
             System.out.println("[H]ome");
             System.out.println("[S]earch by title");
             System.out.println("[L]ibrary");
