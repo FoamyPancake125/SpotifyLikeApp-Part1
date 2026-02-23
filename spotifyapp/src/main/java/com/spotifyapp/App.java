@@ -24,7 +24,7 @@ public class App {
                 case "S": searchMenu(library, player, scanner); break;
                 case "L": libraryMenu(library, player, scanner); break;
                 case "F": favoritesMenu(library, player, scanner); break;
-                case "Q": System.out.println("Thanks for listening. Goodbye!"); running = false; break;
+                case "Q": System.out.println("Thanks for using Spotify-Like App. Goodbye!"); running = false; break;
                 default: System.out.println("Invalid choice. Please enter H, S, L, F, or Q.");
             }
         }
